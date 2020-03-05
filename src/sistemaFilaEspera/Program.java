@@ -1,6 +1,6 @@
 package sistemaFilaEspera;
 
-import java.util.Scanner;
+
 
 import javax.swing.JOptionPane;
 
@@ -9,7 +9,7 @@ public static int idade;
 public static String prioritaria = "Fila prioritaria";
 public static String comum = "Fila comum";
 	public static void main(String[] args) {
-Scanner sc = new Scanner(System.in);
+
 String aux = JOptionPane.showInputDialog(null, "Digite sua idade");
 idade = Integer.parseInt(aux);
 if(idade>=60 && idade<80) {
